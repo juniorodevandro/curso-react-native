@@ -1,4 +1,9 @@
 import React from 'react';
-import { Text } from 'react-native';
+import Componente from './components/Primeiro';
+import { View } from 'react-native';
 
-export default () => <Text>Primeiro Componente!</Text>;
+export default () =>  (
+    <View>
+        <Componente/>
+    </View> 
+);
